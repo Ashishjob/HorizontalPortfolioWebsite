@@ -12,7 +12,7 @@ const Projects = () => {
         {projects.map((project, ind) => (
           <ProjectsCard key={ind}>
             <a href={project.url} target="_blank" rel="noopener noreferrer">
-              <p className="hover:text-lightgreen mb-3 w-2/3 text-3xl font-bold underline">
+              <p className="hover:text-lightgreen hover:cursor-pointer mb-3 w-2/3 text-3xl font-bold underline">
                 {project.title}
               </p>
               <p className="my-3 w-2/3 text-2xl font-semibold">

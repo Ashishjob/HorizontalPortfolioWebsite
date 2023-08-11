@@ -13,7 +13,7 @@ const Extracurricular = () => {
             <ExtracurricularCard key={ind}>
               <a
                 href={extracurriculars.url} target="_blank">
-                <p className="font-bold text-4xl hover:text-lightgreen w-3/4 mb-3 underline">{extracurriculars.position}</p>
+                <p className="font-bold text-4xl hover:text-lightgreen w-3/4 mb-3 underline hover:cursor-pointer">{extracurriculars.position}</p>
                 <p className="font-semibold text-2xl my-3">{extracurriculars.time}</p>
                 <p className="w-3/4 mt-3 text-xl">{extracurriculars.description}</p>
               </a>
