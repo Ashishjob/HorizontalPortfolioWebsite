@@ -64,7 +64,7 @@ function Contact() {
                           id="name"
                           value={name}
                           onChange={(e) => setName(e.target.value)}
-                          className="placeholder:text-md h-12 w-full rounded-lg pl-2 shadow-inner text-white"
+                          className="placeholder:text-md h-12 w-full rounded-lg pl-2 shadow-inner text-black"
                           placeholder="Name" />
                   </div>
                   <div className="mt-6 w-full">
@@ -73,7 +73,7 @@ function Contact() {
                           id="email"
                           value={email}
                           onChange={(e) => setEmail(e.target.value)}
-                          className="placeholder:text-md h-12 w-full rounded-lg pl-2 shadow-inner text-white"
+                          className="placeholder:text-md h-12 w-full rounded-lg pl-2 shadow-inner text-black"
                           placeholder="Email" />
                   </div>
                   <div className="mt-6 w-full">
@@ -81,7 +81,7 @@ function Contact() {
                           id="message"
                           value={message}
                           onChange={(e) => setMessage(e.target.value)}
-                          className="h-40 w-full resize-y rounded-lg bg-white pl-2 pt-2 shadow-inner placeholder:text-lg text-white"
+                          className="h-40 w-full resize-y rounded-lg bg-white pl-2 pt-2 shadow-inner placeholder:text-lg text-black"
                           placeholder="Enter Your Message Here" />
                   </div>
                   <div className="flex justify-center">
