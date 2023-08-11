@@ -6,7 +6,7 @@ const Experience = () => {
       <h1 className="hover:text-lightgreen w-fit text-8xl underline">
         work experience.
       </h1>
-      <div className="mt-24 mb-16 h-8 w-11/12 rounded-2xl bg-white"></div>
+      <div className="mt-24 mb-16 h-3 w-11/12 bg-white"></div>
       <ul className="flex justify-between">
         {experiences.map((experience, ind) => {
           return (

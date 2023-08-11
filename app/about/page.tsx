@@ -74,13 +74,13 @@ const About = () => {
       </div>
       <h2 className="hover:text-lightgreen mt-12 w-fit text-4xl"> about me</h2>
       <h5 className="mt-6 w-3/4 text-3xl">
-        hey there! my name is ashish job, and i am majoring in computer science
-        with a minor in mathematics at the university of houston with a passion
+        Hey there! My name is Ashish Job, and I am majoring in computer science
+        with a minor in mathematics at the University of Houston with a passion
         in the sub-fields of artificial intelligence and software engineering.
-        in addition to my technical side, i also love pandas, to play
+        in addition to my technical side, I also love pandas, to play
         volleyball, draw, read manga, and listen to new music. <br></br>
-        <br></br> feel free to connect with me on linkedin, check out my work on
-        github, or shoot me an email!
+        <br></br> Feel free to connect with me on LinkedIn, check out my work on
+        GitHub, or shoot me an email!
       </h5>
       <div className="absolute right-1/4 mt-8 flex animate-pulse">
         <h6 className="text-2xl mt-2 mr-4">

@@ -7,18 +7,18 @@ const Projects = () => {
       <h1 className="hover:text-lightgreen w-fit text-8xl underline">
         projects.
       </h1>
-      <div className="mb-16 mt-24 h-8 w-11/12 rounded-2xl bg-white"></div>
-      <ul className="flex justify-evenly">
+      <div className="mb-16 mt-24 h-3 w-11/12 bg-white"></div>
+      <ul className="flex justify-between">
         {projects.map((project, ind) => (
           <ProjectsCard key={ind}>
             <a href={project.url} target="_blank" rel="noopener noreferrer">
-              <p className="hover:text-lightgreen hover:cursor-pointer mb-3 w-2/3 text-3xl font-bold underline">
+              <p className="hover:text-lightgreen hover:cursor-pointer mb-3 w-2/3 text-4xl font-bold underline">
                 {project.title}
               </p>
-              <p className="my-3 w-2/3 text-2xl font-semibold">
+              <p className="my-3 text-2xl font-semibold w-1/2">{project.time}</p>
+              <p className="my-3 w-2/3 text-xl font-semibold">
                 {project.description}
               </p>
-              <p className="my-3 text-xl font-semibold">{project.time}</p>
               <div className="flex flex-row">
                 {project.icons.map((icon, icon_ind) => (
                   <Image
