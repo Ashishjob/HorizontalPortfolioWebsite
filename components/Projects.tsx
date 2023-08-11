@@ -22,7 +22,7 @@ export const projects = [
     },
     {
         title: "cougarcs portal",
-        description: "full-stack web-applicatopm that streamlines adminstrative duties",
+        description: "full-stack web-application that streamlines adminstrative duties",
         icons: ["supabase", "ts", "tailwind", "git"],
         url: "https://github.com/Ashishjob/CougarCS-AdminPortal",
         time: "[february 2023 - may 2023]"

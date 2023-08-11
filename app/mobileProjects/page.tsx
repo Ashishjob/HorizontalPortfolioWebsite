@@ -15,7 +15,7 @@ const MobileProjects = () => {
               <p className="font-bold text-2xl hover:text-lightgreen text-center mb-3 underline mx-4">
                 {project.title}
               </p>
-              <p className="font-semibold text-xl text-center my-3 mx-4">
+              <p className="font-semibold text-xl text-center my-3 mx-8">
                 {project.description}
               </p>
               <p className="text-center mt-3 text-lg mx-4">{project.time}</p>

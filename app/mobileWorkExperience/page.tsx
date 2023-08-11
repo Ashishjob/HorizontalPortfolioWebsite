@@ -14,7 +14,7 @@ const MobileExperience = () => {
                 href={experience.url} target="_blank">
                 <p className="font-bold text-2xl hover:text-lightgreen text-center mb-3 underline mx-4">{experience.position}</p>
                 <p className="font-semibold text-xl text-center my-3 mx-4">{experience.time}</p>
-                <p className="text-center mt-3 text-lg mx-4 mb-20 md:mb-12">{experience.description}</p>
+                <p className="text-center mt-3 text-lg mx-8 mb-20 md:mb-12">{experience.description}</p>
               </a>
             </MobileExperienceCard>
           );
