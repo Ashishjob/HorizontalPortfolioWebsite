@@ -49,26 +49,14 @@ body {
   transform-origin: top left;
   position: relative;
   top: -25px;
-}
-
-#container {}
-
-.one {
   background-color: #3C4748;
 }
 
-.two {
-  background-color: #3C4748;
-}
-
-.three {
-  background-color: #3C4748;
-}
-
-.four {
-  background-color: #3C4748;
-}
-
-.five {
+#mobilecontainer {
+  overflow-y: scroll;
+  width: 100vw;
+  height: 100vw;
+  transform-origin: top left;
+  position: relative;
   background-color: #3C4748;
 }

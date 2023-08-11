@@ -5,12 +5,19 @@ import Extracurricular from "./extracurricular/page";
 import Projects from "./projects/page";
 import Misc from "./miscellaneous/page";
 import Contact from "./contact/page";
+import NormalNavbar from "@/components/NavBar";
+import MobileAbout from "./mobileAbout/page";
+import MobileExperience from "./mobileWorkExperience/page";
+import MobileExtracurricular from "./mobileExtracurricular/page";
+import MobileProjects from "./mobileProjects/page";
+import MobileContact from "./mobileContact/page";
 
 const Index = () => {
   return (
-    <main className="hidden lg:block">
-      <div id="container">
+    <main>
+      <div id="container" className="hidden lg:block">
         <div id="container2">
+          {/* <NormalNavbar /> */}
           <div className="box one">
             <About />
           </div>
@@ -23,12 +30,29 @@ const Index = () => {
           <div className="box four">
             <Projects />
           </div>
-          <div className="box five">
+          {/* <div className="box five">
             <Misc />
-          </div>
+          </div> */}
           <div className="box five">
             <Contact />
           </div>
+        </div>
+      </div>
+      <div id="mobilecontainer" className="lg:hidden bg-black min-h-screen">
+        <div className="">
+          <MobileAbout />
+        </div>
+        <div className="">
+          <MobileExperience />
+        </div>
+        <div className="">
+          <MobileExtracurricular />
+        </div>
+        <div className="">
+          <MobileProjects />
+        </div>
+        <div className="">
+          <MobileContact />
         </div>
       </div>
     </main>

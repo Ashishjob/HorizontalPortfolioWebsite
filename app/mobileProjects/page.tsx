@@ -1,25 +1,25 @@
 import Image from "next/image";
 import { projects } from "../../components/Projects";
-const Projects = () => {
+const MobileProjects = () => {
   return (
     <div className="my-24">
-      <h1 className="hover:text-lightgreen w-fit text-8xl underline">
+      <h1 className="hover:text-lightgreen text-center text-4xl underline">
         projects.
       </h1>
-      <div className="mb-16 mt-24 h-8 w-11/12 rounded-2xl bg-white"></div>
-      <ul className="flex justify-evenly">
+      <div className="my-12 h-8 mx-20 md:mx-40 bg-center rounded-2xl bg-white"></div>
+      <ul className="flex-col">
           {projects.map((projects, ind) => {
             return (
-              <ProjectsCard key={ind}>
+              <MobileProjectsCard key={ind}>
                 <a href={projects.url} target="_blank">
-                  <p className="hover:text-lightgreen mb-3 w-2/3 text-3xl font-bold underline">
+                  <p className="font-bold text-2xl hover:text-lightgreen text-center mb-3 underline mx-4">
                     {projects.title}
                   </p>
-                  <p className="my-3 w-2/3 text-2xl font-semibold">
+                  <p className="font-semibold text-xl text-center my-3 mx-4">
                     {projects.description}
                   </p>
-                  <p className="my-3 text-xl font-semibold">{projects.time}</p>
-                  <div className="flex flex-row">
+                  <p className="text-center mt-3 text-lg mx-4">{projects.time}</p>
+                  <div className="flex flex-row justify-center">
                     {projects.icons.map((icon, icon_ind) => {
                       return (
                         <img
@@ -27,13 +27,13 @@ const Projects = () => {
                           width="35"
                           height="35"
                           alt={icon}
-                          className="mr-3"
+                          className="mr-3 my-2 mb-12 items-center justify-center"
                         />
                       );
                     })}
                   </div>
                 </a>
-              </ProjectsCard>
+              </MobileProjectsCard>
             );
           })}
       </ul>
@@ -41,13 +41,13 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default MobileProjects;
 
-interface ProjectsProps {
+interface MobileProjectsProps {
   key: number;
   children: React.ReactNode;
 }
 
-const ProjectsCard = (props: ProjectsProps) => {
+const MobileProjectsCard = (props: MobileProjectsProps) => {
   return <li>{props.children}</li>;
 };

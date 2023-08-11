@@ -1,22 +1,22 @@
 import Image from "next/image";
-const About = () => {
+const MobileAbout = () => {
   return (
-    <div className="my-24 hidden lg:block">
-      <h1 className="hover:text-lightgreen w-fit text-8xl underline">
+    <div className="my-24">
+      <h1 className="hover:text-lightgreen text-4xl text-center underline">
         ashish job.
       </h1>
-      <p className="my-5 text-3xl font-light">cs + math student @ uh.</p>
-      <div className="my-12 flex w-64 justify-between">
+      <p className="my-5 text-xl text-center font-light">cs + math student @ uh.</p>
+      <div className="flex items-center justify-center">
         <a href="https://www.linkedin.com/in/ashish-job/" target="_blank">
           <Image
-            className="hover:hidden absolute"
+            className="hover:hidden absolute mx-4"
             src="/LinkedIn.svg"
             alt="LinkedIn"
             width={50}
             height={50}
           />
           <Image
-            className="hover:relative"
+            className="hover:relative mx-4"
             src="/HoverLinkedIn.svg"
             alt="LinkedIn"
             width={50}
@@ -25,14 +25,14 @@ const About = () => {
         </a>
         <a href="https://github.com/Ashishjob" target="_blank">
         <Image
-            className="hover:hidden absolute"
+            className="hover:hidden absolute mx-4"
             src="/GitHub.svg"
             alt="GitHub"
             width={50}
             height={50}
           />
           <Image
-            className="hover:relative"
+            className="hover:relative mx-4"
             src="/HoverGitHub.svg"
             alt="GitHub"
             width={50}
@@ -41,14 +41,14 @@ const About = () => {
         </a>
         <a href="officialResume.pdf" target="_blank">
         <Image
-            className="hover:hidden absolute"
+            className="hover:hidden absolute mx-4"
             src="/Resume.png"
             alt="Resume"
             width={50}
             height={50}
           />
           <Image
-            className="hover:relative"
+            className="hover:relative mx-4"
             src="/HoverResume.png"
             alt="Resume"
             width={50}
@@ -57,14 +57,14 @@ const About = () => {
         </a>
         <a href="mailto:ashishjob104@gmail.com">
         <Image
-            className="hover:hidden absolute"
+            className="hover:hidden absolute mx-4"
             src="/Email.png"
             alt="Email"
             width={50}
             height={50}
           />
           <Image
-            className="hover:relative"
+            className="hover:relative mx-4"
             src="/HoverEmail.png"
             alt="Email"
             width={50}
@@ -72,8 +72,8 @@ const About = () => {
           />
         </a>
       </div>
-      <h2 className="hover:text-lightgreen mt-12 w-fit text-4xl"> about me</h2>
-      <h5 className="mt-6 w-3/4 text-3xl">
+      <h2 className="hover:text-lightgreen mt-12 text-center text-2xl"> about me</h2>
+      <h5 className="mt-6 text-xl text-center mx-16">
         hey there! my name is ashish job, and i am majoring in computer science
         with a minor in mathematics at the university of houston with a passion
         in the sub-fields of artificial intelligence and software engineering.
@@ -82,20 +82,8 @@ const About = () => {
         <br></br> feel free to connect with me on linkedin, check out my work on
         github, or shoot me an email!
       </h5>
-      <div className="absolute right-1/4 mt-8 flex animate-pulse">
-        <h6 className="text-2xl mt-2 mr-4">
-        Scroll
-        </h6>
-      <Image
-        className=""
-        src="/arrow.svg"
-        alt="me"
-        width={50}
-        height={50}
-        />
-        </div>
     </div>
   );
 };
 
-export default About;
+export default MobileAbout;
