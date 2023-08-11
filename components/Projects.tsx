@@ -17,7 +17,7 @@ export const projects = [
         title: "portfolio",
         description: "responsive website built to showcase work and experience.",
         icons: ["next", "ts", "tailwind", "figma"],
-        url: "https://github.com/Ashishjob/Ashishjob.github.io",
+        url: "https://github.com/Ashishjob/HorizontalPortfolioWebsite",
         time: "[may 2023 - june 2023]"
     },
     {
