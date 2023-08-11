@@ -7,6 +7,9 @@ const inter = Roboto_Slab({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Ashish Job Portfolio",
   description: "Ashish Job ~ Aspiring Software Engineer",
+  openGraph: {
+    images: './panda.png'
+  }
 };
 
 export default function RootLayout({
