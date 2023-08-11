@@ -22,7 +22,7 @@ const MobileProjects = () => {
                   <div className="flex flex-row justify-center">
                     {projects.icons.map((icon, icon_ind) => {
                       return (
-                        <img
+                        <Image
                           src={`/${icon}.svg`}
                           width="35"
                           height="35"
