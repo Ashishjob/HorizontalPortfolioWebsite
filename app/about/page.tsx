@@ -77,7 +77,7 @@ const About = () => {
         Hey there! My name is Ashish Job, and I am majoring in computer science
         with a minor in mathematics at the University of Houston with a passion
         in the sub-fields of artificial intelligence and software engineering.
-        in addition to my technical side, I also love pandas, to play
+        In addition to my technical side, I also love pandas, to play
         volleyball, draw, read manga, and listen to new music. <br></br>
         <br></br> Feel free to connect with me on LinkedIn, check out my work on
         GitHub, or shoot me an email!

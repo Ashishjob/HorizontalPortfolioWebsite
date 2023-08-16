@@ -5,7 +5,6 @@ import Extracurricular from "./extracurricular/page";
 import Projects from "./projects/page";
 import Misc from "./miscellaneous/page";
 import Contact from "./contact/page";
-import NormalNavbar from "@/components/NavBar";
 import MobileAbout from "./mobileAbout/page";
 import MobileExperience from "./mobileWorkExperience/page";
 import MobileExtracurricular from "./mobileExtracurricular/page";
@@ -17,7 +16,6 @@ const Index = () => {
     <main>
       <div id="container" className="hidden lg:block">
         <div id="container2">
-          {/* <NormalNavbar /> */}
           <div className="box one">
             <About />
           </div>

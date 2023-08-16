@@ -77,7 +77,7 @@ const MobileAbout = () => {
         hey there! my name is ashish job, and i am majoring in computer science
         with a minor in mathematics at the university of houston with a passion
         in the sub-fields of artificial intelligence and software engineering.
-        in addition to my technical side, i also love pandas, to play
+        In addition to my technical side, i also love pandas, to play
         volleyball, draw, read manga, and listen to new music. <br></br>
         <br></br> feel free to connect with me on linkedin, check out my work on
         github, or shoot me an email!

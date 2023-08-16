@@ -1,3 +1,4 @@
+import NormalNavbar from "@/components/NavBar";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Roboto_Slab } from "next/font/google";
@@ -19,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}><div className="hidden"><NormalNavbar/></div>{children}</body>
     </html>
   );
 }

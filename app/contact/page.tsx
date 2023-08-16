@@ -50,7 +50,7 @@ function Contact() {
   }, [isSent]);
 
   return (
-    <div className="my-24">
+    <div id="contact" className="my-24">
       <h1 className="hover:text-lightgreen w-fit text-8xl underline">
         contact.
       </h1>
