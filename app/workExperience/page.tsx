@@ -13,8 +13,8 @@ const Experience = () => {
             <ExperienceCard key={ind}>
               <a
                 href={experience.url} target="_blank">
-                <p className="font-bold text-4xl hover:text-lightgreen w-2/3 mb-3 underline">{experience.position}</p>
-                <p className="font-semibold text-2xl my-3">{experience.time}</p>
+                <p className="font-bold text-3xl hover:text-lightgreen w-2/3 mb-3 underline">{experience.position}</p>
+                <p className="font-semibold text-xl my-3">{experience.time}</p>
                 <p className="w-2/3 mt-3 text-xl">{experience.description}</p>
               </a>
             </ExperienceCard>

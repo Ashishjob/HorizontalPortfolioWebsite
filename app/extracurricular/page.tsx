@@ -11,12 +11,14 @@ const Extracurricular = () => {
         {extracurriculars.map((extracurriculars, ind) => {
           return (
             <ExtracurricularCard key={ind}>
+              <div className="border-black border-2 rounded-xl h-full w-3/4">
               <a
                 href={extracurriculars.url} target="_blank">
-                <p className="font-bold text-4xl hover:text-lightgreen w-3/4 mb-3 underline hover:cursor-pointer">{extracurriculars.position}</p>
-                <p className="font-semibold text-2xl my-3">{extracurriculars.time}</p>
-                <p className="w-3/4 mt-3 text-xl">{extracurriculars.description}</p>
+                <p className="m-2 font-bold text-3xl hover:text-lightgreen mb-3 underline hover:cursor-pointer">{extracurriculars.position}</p>
+                <p className="m-2 font-semibold text-xl my-3">{extracurriculars.time}</p>
+                <p className="m-2 mt-3 text-xl">{extracurriculars.description}</p>
               </a>
+              </div>
             </ExtracurricularCard>
           );
         })}

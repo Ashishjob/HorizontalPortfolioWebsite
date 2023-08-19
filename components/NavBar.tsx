@@ -3,7 +3,7 @@ import Link from "next/link";
 const NormalNavbar: React.FC = () => {
   return (
     <nav className=" h-20 items-center">
-      <div className=" h-12 flex justify-between text-black text-xl bg-white">
+      <div className=" h-12 flex justify-between text-white text-xl border-white border-2 rounded-2xl bg-black overflow-y-hidden">
         <a href={"/"} className="mx-12 items-center justify-center flex">
         home
         </a>

@@ -1,6 +1,12 @@
 export const experiences = [
     {
-        position: "undergrad research assistant - sail lab",
+        position: "academic assistant - university of houston",
+        time: "august 2023 - present",
+        url: "https://www.uh.edu/nsm/computer-science/",
+        description: "I supported 120+ students in structured procedural programming and elementary functions in Python through code-reviewing, and provided feedback for multiple Python programming assignments."
+    },
+    {
+        position: "undergrad research asst. - sail lab",
         time: "may 2023 - present",
         url: "https://sail.cive.uh.edu/",
         description: "I utilize python, NeRFstudio, and LERF to acquire and analyze data for computer vision and language modeling in order to detect faults in structures caused by natural disasters."

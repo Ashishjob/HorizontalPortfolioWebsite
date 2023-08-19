@@ -1,11 +1,5 @@
 export const extracurriculars = [
     {
-        position: "logistics director - datacon",
-        time: "[apr. 2023 - present]",
-        // url: "",
-        description: "I am responsible for coordinating logistical aspects of the event such as venue arrangements, accommodation, and equipment procurement.."
-    },
-    {
         position: "logistics officer - codered",
         time: "[apr. 2023 - present]",
         url: "https://uhcode.red/",
@@ -14,7 +8,7 @@ export const extracurriculars = [
     {
         position: "relations officer - cougarai",
         time: "[apr. 2023 - present]",
-        // url: "",
+        url: "https://cougar-ai-website-git-feature-member-page-cougar-ai.vercel.app/",
         description: "I establish relationships with other organizations to organize events and workshops to drive advancements in AI and ML for participating students."
     },
     {

@@ -7,29 +7,33 @@ const Projects = () => {
       <h1 className="hover:text-lightgreen w-fit text-8xl underline">
         projects.
       </h1>
-      <div className="mb-16 mt-24 h-3 w-11/12 bg-white"></div>
+      <div className="mb-16 mt-24 h-3 w-full bg-white"></div>
       <ul className="flex justify-between">
         {projects.map((project, ind) => (
           <ProjectsCard key={ind}>
             <a href={project.url} target="_blank" rel="noopener noreferrer">
-              <p className="hover:text-lightgreen hover:cursor-pointer mb-3 w-2/3 text-4xl font-bold underline">
+              <Image src={project.image} width={235} height={0} alt={project.image} className="rounded-xl shadow-2xl"/>
+              <div className="bg-darkblack rounded-xl shadow-2xl w-full">
+              <p className="hover:text-lightgreen hover:cursor-pointer text-3xl text-center mt-3 font-bold underline">
                 {project.title}
               </p>
-              <p className="my-3 text-2xl font-semibold w-1/2">{project.time}</p>
-              <p className="my-3 w-2/3 text-xl font-semibold">
+              <p className="m-3 text-xl font-semibold text-center">{project.time}</p>
+              {/* <p className="m-3 text-lg">
                 {project.description}
-              </p>
-              <div className="flex flex-row">
+              </p> */}
+              <div className="flex flex-row items-center justify-center">
                 {project.icons.map((icon, icon_ind) => (
                   <Image
                     key={icon_ind}
                     src={`/${icon}.svg`}
-                    width={35}
-                    height={35}
+                    width={25}
+                    height={25}
                     alt={icon}
-                    className="mr-3"
+                    className="m-3"
+                    color="white"
                   />
                 ))}
+              </div>
               </div>
             </a>
           </ProjectsCard>
