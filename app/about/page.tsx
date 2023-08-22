@@ -39,7 +39,7 @@ const About = () => {
             height={50}
           />
         </a>
-        <a href="officialResume.pdf" target="_blank">
+        <a href="officialResume (1).pdf" target="_blank">
         <Image
             className="hover:hidden absolute"
             src="/Resume.png"
@@ -72,8 +72,8 @@ const About = () => {
           />
         </a>
       </div>
-      <h2 className="hover:text-lightgreen mt-12 w-fit text-4xl"> about me</h2>
-      <h5 className="mt-6 w-3/4 text-3xl">
+      <h2 className="hover:text-lightgreen mt-12 w-fit text-3xl"> about me</h2>
+      <h5 className="mt-6 w-3/4 text-2xl">
         Hey there! My name is Ashish Job, and I am majoring in computer science
         with a minor in mathematics at the University of Houston with a passion
         in the sub-fields of artificial intelligence and software engineering.

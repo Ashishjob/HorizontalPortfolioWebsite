@@ -39,7 +39,7 @@ const MobileAbout = () => {
             height={50}
           />
         </a>
-        <a href="officialResume.pdf" target="_blank">
+        <a href="officialResume (1).pdf" target="_blank">
         <Image
             className="hover:hidden absolute mx-4"
             src="/Resume.png"

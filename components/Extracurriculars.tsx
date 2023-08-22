@@ -18,7 +18,7 @@ export const extracurriculars = [
         description: "I ensure significant member participation and placement in multiple teams in projects and competitions throughout the organization."
     },
     {
-        position: "web developer - cougarcs",
+        position: "web developer- cougarcs",
         time: "[mar. 2023 - present]",
         url: "https://cougarcs.com/",
         description: "I contributed to the admin portal and revamp teams by assembling and re-configuring the website's front end."

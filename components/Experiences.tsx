@@ -17,10 +17,10 @@ export const experiences = [
         url: "https://cyvergance.ai/",
         description: "I evaluated the institution's threat feed monitoring policies, identifying vulnerabilities to enhance cybersecurity, and I led a team promoting collaboration among all members."
     },
-    {
-        position: "tutor - the tutoring center",
-        time: "april 2021 - august 2021",
-        url: "https://www.tutoringcenter.com/center/sugarlandtx",
-        description: "I taught students ranging from 5 to 18 years old in subjects such as math, english, and science, and I created a spreadsheet to organize scheduling with students and tutors."
-    }
+    // {
+    //     position: "tutor - the tutoring center",
+    //     time: "april 2021 - august 2021",
+    //     url: "https://www.tutoringcenter.com/center/sugarlandtx",
+    //     description: "I taught students ranging from 5 to 18 years old in subjects such as math, english, and science, and I created a spreadsheet to organize scheduling with students and tutors."
+    // }
 ]
