@@ -6,7 +6,7 @@ export const extracurriculars = [
         description: "I take part in the operational aspects of the biggest hackathon in houston, ensuring a seamless experience for participants."
     },
     {
-        position: "relations officer - cougarai",
+        position: "vice president internal - cougarai",
         time: "[apr. 2023 - present]",
         url: "https://cougar-ai-website-git-feature-member-page-cougar-ai.vercel.app/",
         description: "I establish relationships with other organizations to organize events and workshops to drive advancements in AI and ML for participating students."
